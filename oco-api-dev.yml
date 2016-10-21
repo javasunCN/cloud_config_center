@@ -8,4 +8,4 @@ eureka:
     metadataMap:
       instanceId: ${vcap.application.instance_id:${spring.application.name}:${spring.application.instance_id:${server.port}}}
       
-words:My love,Just one last dance,As long as you love me,Because of you,God is a girl,Hero
+words: My love,Just one last dance,As long as you love me,Because of you,God is a girl,Hero
