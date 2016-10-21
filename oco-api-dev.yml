@@ -4,5 +4,4 @@ eureka:
     serviceUrl:
       defaultZone: http://user:${eureka.password}@localhost:8010/eureka/
       
-      
 words:My love,Just one last dance,As long as you love me,Because of you,God is a girl,Hero
