@@ -1,4 +1,7 @@
-message=Hot Message
-message.info=中文测试
+message: 
+  info:
+    中文测试
+profile:
+  Message Info CNC Test 中文
 
 
