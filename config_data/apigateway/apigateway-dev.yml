@@ -31,7 +31,7 @@ spring:
     
 #业务应用相关配置
 message:
-  info:  message信息DEV-bus
+  info:  message信息DEV-bus refresh/8888
 
 
 
