@@ -28,12 +28,7 @@ spring:
   messages:
     encoding: UTF-8
   
-## Spring Cloud Bus配置
-  rabbitmq:
-    host: 10.10.2.64
-    port: 5672
-    username: admin
-    password: admin    
+
 
 #业务应用相关配置
 message:
