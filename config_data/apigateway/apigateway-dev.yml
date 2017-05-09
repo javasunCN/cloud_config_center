@@ -29,6 +29,17 @@ spring:
     encoding: UTF-8
   
 
+#业务应用相关配置
+message:
+  info:  message信息Info
+
+
+
+
+
+
+
+
 
     
   
