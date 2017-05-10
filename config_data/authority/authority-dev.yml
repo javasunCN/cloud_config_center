@@ -1,0 +1,47 @@
+---
+info:
+  scm-url: "@scm.url@"
+  build-url: "http://travis-ci.org/@env.TRAVIS_REPO_SLUG@/builds/@env.TRAVIS_BUILD_ID@"
+  stage: dev
+  version: "@pom.version@"
+
+logging:
+  file: "target/info-log.log"
+
+management:
+  context-path: "/actuator"
+  
+  
+---
+server:
+  port: ${port:8201}
+  tomcat: 
+    uri-encoding: UTF-8
+    
+
+spring:
+  http:
+    encoding: 
+      charset: UTF-8
+      enabled: true
+      force: true
+  messages:
+    encoding: UTF-8
+  
+    
+#业务应用相关配置
+message:
+  info:  message信息DEV-bus refresh/8888
+
+
+
+
+
+
+
+
+
+    
+  
+  
+  
